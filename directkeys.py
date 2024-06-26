@@ -6,7 +6,7 @@ SendInput = ctypes.windll.user32.SendInput
 
 space_pressed=0x39
 
-# C struct redefinitions 
+# C struct redefinitions adsfasdfasdf
 PUL = ctypes.POINTER(ctypes.c_ulong)
 class KeyBdInput(ctypes.Structure):
     _fields_ = [("wVk", ctypes.c_ushort),
